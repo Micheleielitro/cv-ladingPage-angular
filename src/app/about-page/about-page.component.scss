@@ -8,7 +8,6 @@
   @media only screen and (max-width: 600px) {
     width: 100%;
   }
-
   .img-wrapper {
     width: 250px;
     height: 250px;
@@ -20,13 +19,11 @@
       border-radius: 50%;
     }
   }
-
   h2 {
     margin-bottom: 10px;
     font-size: 26px;
     font-weight: bold;
   }
-
   .content {
     width: 90%;
 
@@ -43,7 +40,6 @@
       animation: typing 2s steps(30, end), blink-caret 0.75s step-end infinite;
     }
   }
-
   @media only screen and (max-width: 600px) {
     .img-wrapper {
       width: 150px;
@@ -53,7 +49,6 @@
     h2 {
       font-size: 28px;
     }
-
     .content {
       width: 70%;
 
@@ -130,7 +125,6 @@
           }
         }
       }
-
       .card:nth-child(1) a {
         background-color: #0077b5;
         color: #fff;
@@ -142,7 +136,5 @@
       }
     }
   }
-
-  /* Aggiunta di questa regola CSS */
   overflow: hidden;
 }
