@@ -20,6 +20,7 @@
             "outputPath": "docs/cv-lading-page",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "/cv-ladingPage-angular/",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
