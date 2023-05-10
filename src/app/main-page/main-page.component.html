@@ -1,0 +1,19 @@
+<div class="page-container">
+  <div class="sidebar">
+    <div class="logo">
+      <img src="../../assets/my_photo.png" alt="My Photo" />
+    </div>
+    <div class="list-items">
+      <a class="list-item" routerLink="/about" routerLinkActive="selected">
+        <i class="material-icons">dataset</i>
+        About
+      </a>
+      <a class="list-item" routerLink="/contacts" routerLinkActive="selected">
+        <i class="material-icons">contacts</i>Skills
+      </a>
+    </div>
+  </div>
+  <div class="page-content-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
